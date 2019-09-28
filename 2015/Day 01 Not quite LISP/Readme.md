@@ -1,5 +1,6 @@
-# --- Day 1: Not Quite Lisp ---
+# Day 1 - Not Quite Lisp 
 
+## Part One
 Santa was hoping for a white Christmas, but his weather machine's "snow" function is powered by stars, and he's fresh out! To save Christmas, he needs you to collect **fifty** stars by December 25th.
 
 Collect stars by helping Santa solve puzzles. Two puzzles will be made available on each day in the advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants **one star**. Good luck!
@@ -22,7 +23,7 @@ For example:
 
 To **what floor** do the instructions take Santa?
 
-##--- Part Two ---
+## Part One
 Now, given the same instructions, find the position of the first character that causes him to enter the basement (floor `-1`). The first character in the instructions has position `1`, the second character has position `2`, and so on.
 
 For example:
@@ -32,3 +33,5 @@ For example:
 
 What is the **position** of the character that causes Santa to first enter the basement?
 
+## References
+https://adventofcode.com/2015/day/1
