@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+  <StartupObject>day01.Solution</StartupObject>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.Abstractions" Version="2.0.2.45"/>
+    <PackageReference Include="Core.System.Configuration.Install" Version="*"/>
+    <PackageReference Include="System.Data.DataSetExtensions" Version="*"/>
+    <PackageReference Include="xunit" Version="2.4.1"/>
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+  </ItemGroup>
+</Project>

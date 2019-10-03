@@ -2,3 +2,5 @@
 .idea
 node_modules
 __pycache__
+**/sharp/bin
+**/sharp/obj
