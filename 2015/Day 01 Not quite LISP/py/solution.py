@@ -3,6 +3,9 @@ from colorama import Fore, Style
 
 
 def processPart1(input):
+    """
+    Return solution for day1
+    """
     return input.count('(') - input.count(')')
 
 
