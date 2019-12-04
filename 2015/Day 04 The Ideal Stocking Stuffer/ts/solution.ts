@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import crypto from "crypto";
+import crypto from 'crypto';
 import fs from 'fs';
 import R from 'ramda';
 
