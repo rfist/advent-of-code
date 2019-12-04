@@ -9,9 +9,10 @@
  
  #2019
  
- |  Day  | Name                                       |     TypeScript     |
- | :---: | ------------------------------------------ | :----------------: |
- | ✔️ 01 | [The Tyranny of the Rocket Equation][2019] | [:star:][2019.1.1] |
+ |  Day  | Name                                         |     TypeScript     |
+ | :---: | -------------------------------------------- | :----------------: |
+ | ✔️ 01 | [The Tyranny of the Rocket Equation][2019.1] | [:star:][2019.1.1] |
+ | ✔️ 02 | [1202 Program Alarm][2019.2]                 | [:star:][2019.1.2] |
 
 [1]: http://adventofcode.com/2015/day/1
 [1.1]: ./2015/Day%2001%20Not%20quite%20LISP/ts/solution.ts
@@ -27,5 +28,7 @@
 [4.1]: ./2015/Day%2004%20The%20Ideal%20Stocking%20Stuffer/ts/solution.ts
 
 
-[2019]: http://adventofcode.com/2019/day/1
+[2019.1]: http://adventofcode.com/2019/day/1
 [2019.1.1]: ./2019/Day%2001%20The%20Tyranny%20of%20the%20Rocket%20Equation/ts/solution.ts
+[2019.2]: http://adventofcode.com/2019/day/2
+[2019.1.2]: ./2019/Day%2002%201202%20Program%20Alarm/ts/solution.ts
