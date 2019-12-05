@@ -3,8 +3,8 @@
  |  Day  | Name                             |  TypeScript   |    Python     |    GoLang     |      C#       |
  | :---: | -------------------------------- | :-----------: | :-----------: | :-----------: | :-----------: |
  | ✔️ 01 | [Not Quite Lisp][1]              | [:star:][1.1] | [:star:][1.2] | [:star:][1.3] | [:star:][1.4] |
- | ✔️ 02 | [Inventory Management System][2] | [:star:][2.1] | [:star:][2.2] |               |               |
- | ✔️ 03 | [Inventory Management System][3] | [:star:][3.1] |               |               |               |
+ | ✔️ 02 | [I Was Told There Would Be No Math][2] | [:star:][2.1] | [:star:][2.2] |               |               |
+ | ✔️ 03 | [Perfectly Spherical Houses in a Vacuum][3] | [:star:][3.1] |               |               |               |
  | ✔️ 04 | [The Ideal Stocking Stuffer][4]  | [:star:][4.1] |               |               |               |
  
  #2019
