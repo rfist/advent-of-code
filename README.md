@@ -1,11 +1,11 @@
  # 2015
  
- |  Day  | Name                             |  TypeScript   |    Python     |    GoLang     |      C#       |
- | :---: | -------------------------------- | :-----------: | :-----------: | :-----------: | :-----------: |
- | ✔️ 01 | [Not Quite Lisp][1]              | [:star:][1.1] | [:star:][1.2] | [:star:][1.3] | [:star:][1.4] |
- | ✔️ 02 | [I Was Told There Would Be No Math][2] | [:star:][2.1] | [:star:][2.2] |               |               |
+ |  Day  | Name                                        |  TypeScript   |    Python     |    GoLang     |      C#       |
+ | :---: | ------------------------------------------- | :-----------: | :-----------: | :-----------: | :-----------: |
+ | ✔️ 01 | [Not Quite Lisp][1]                         | [:star:][1.1] | [:star:][1.2] | [:star:][1.3] | [:star:][1.4] |
+ | ✔️ 02 | [I Was Told There Would Be No Math][2]      | [:star:][2.1] | [:star:][2.2] |               |               |
  | ✔️ 03 | [Perfectly Spherical Houses in a Vacuum][3] | [:star:][3.1] |               |               |               |
- | ✔️ 04 | [The Ideal Stocking Stuffer][4]  | [:star:][4.1] |               |               |               |
+ | ✔️ 04 | [The Ideal Stocking Stuffer][4]             | [:star:][4.1] |               |               |               |
  
  # 2019
  
@@ -13,6 +13,7 @@
  | :---: | -------------------------------------------- | :----------------: |
  | ✔️ 01 | [The Tyranny of the Rocket Equation][2019.1] | [:star:][2019.1.1] |
  | ✔️ 02 | [1202 Program Alarm][2019.2]                 | [:star:][2019.1.2] |
+ | ✔️ 03 | [Crossed Wires][2019.3]                      | [:star:][2019.1.3] |
 
 [1]: http://adventofcode.com/2015/day/1
 [1.1]: ./2015/Day%2001%20Not%20quite%20LISP/ts/solution.ts
@@ -32,3 +33,5 @@
 [2019.1.1]: ./2019/Day%2001%20The%20Tyranny%20of%20the%20Rocket%20Equation/ts/solution.ts
 [2019.2]: http://adventofcode.com/2019/day/2
 [2019.1.2]: ./2019/Day%2002%201202%20Program%20Alarm/ts/solution.ts
+[2019.3]: http://adventofcode.com/2019/day/3
+[2019.1.3]: ./2019/Day%2003%20Crossed%20Wires/ts/solution.ts
