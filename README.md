@@ -14,6 +14,7 @@
  | ✔️ 01 | [The Tyranny of the Rocket Equation][2019.1] | [:star:][2019.1.1] |
  | ✔️ 02 | [1202 Program Alarm][2019.2]                 | [:star:][2019.1.2] |
  | ✔️ 03 | [Crossed Wires][2019.3]                      | [:star:][2019.1.3] |
+ | ✔️ 04 | [Secure Container][2019.4]                   | [:star:][2019.1.4] |
 
 [1]: http://adventofcode.com/2015/day/1
 [1.1]: ./2015/Day%2001%20Not%20quite%20LISP/ts/solution.ts
@@ -35,3 +36,5 @@
 [2019.1.2]: ./2019/Day%2002%201202%20Program%20Alarm/ts/solution.ts
 [2019.3]: http://adventofcode.com/2019/day/3
 [2019.1.3]: ./2019/Day%2003%20Crossed%20Wires/ts/solution.ts
+[2019.4]: http://adventofcode.com/2019/day/4
+[2019.1.4]: ./2019/Day_04/ts/solution.ts
