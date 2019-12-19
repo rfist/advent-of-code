@@ -25,6 +25,14 @@ export class Solution {
   }
 
   public processPart1(input: number): number[] {
+    return this.calculate(input);
+  }
+
+  public processPart2(input: number): number[] {
+    return this.calculate(input);
+  }
+
+  private calculate(input: number): number[] {
     const startValue: IMemory = {
       input: this.splittedInput,
       output: [],
@@ -45,8 +53,21 @@ export class Solution {
         R.multiply(pos1, pos2), memory.input);
       const operation3 = () => R.assoc(memory.input[memory.pointer + 1].toString(), input, memory.input);
       const operation4 = () =>
-        memory.output.push(memory.input[memory.input[memory.pointer + 1]]) &&
+        memory.output.push(pos1) &&
         memory.output;
+      const operation7 = () => R.assoc(outputPosition.toString(),
+        pos1 < pos2 ? 1 : 0, memory.input);
+      const operation8 = () => R.assoc(outputPosition.toString(),
+        pos1 === pos2 ? 1 : 0, memory.input);
+      const getPointer = () => {
+        if (opcode === 5) {
+          return pos1 !== 0 ? pos2 : memory.pointer + 3;
+        } else if (opcode === 6) {
+          return pos1 === 0 ? pos2 : memory.pointer + 3;
+        } else {
+          return memory.pointer + ([3, 4].includes(opcode) ? 2 : 4);
+        }
+      };
       return R.pipe(
         R.assoc('input',
           R.cond([
@@ -54,6 +75,10 @@ export class Solution {
             [R.equals(2), operation2],
             [R.equals(3), operation3],
             [R.equals(4), R.always(memory.input)],
+            [R.equals(5), R.always(memory.input)],
+            [R.equals(6), R.always(memory.input)],
+            [R.equals(7), operation7],
+            [R.equals(8), operation8],
           ])(opcode as never),
         ),
         R.assoc('output',
@@ -62,7 +87,7 @@ export class Solution {
             [R.T, R.always(memory.output)],
           ])(opcode as never),
         ),
-        R.mergeWith(R.add, {pointer: [3, 4].includes(opcode) ? 2 : 4}),
+        R.assoc('pointer', getPointer()),
       )(memory);
     };
 
@@ -73,10 +98,6 @@ export class Solution {
     )(startValue as any);
     return result.output;
   }
-
-  public processPart2(): number {
-    return 0;
-  }
 }
 
 if (require.main === module) {
@@ -84,4 +105,5 @@ if (require.main === module) {
   const solution: Solution = new Solution(inputRaw);
   // 3122865
   console.log(`Program produces diagnostic code ${chalk.yellow(solution.processPart1(1).reverse()[0].toString())}`);
+  console.log(`Program diagnostic code for thermal radiator controller is ${chalk.yellow(solution.processPart2(5)[0].toString())}`);
 }

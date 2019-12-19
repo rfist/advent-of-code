@@ -14,5 +14,9 @@ test(`${day}, Year ${year}, part 1`, (t) => {
     t.is(new Solution('3,0,1001,0,2,0,4,0,99').processPart1(5).join(','), '7');
 });
 
-// test(`${day}, Year ${year}, part 2`, (t) => {
-// });
+test(`${day}, Year ${year}, part 2`, (t) => {
+  const input = '3,21,1008,21,8,20,1005,20,22,107,8,21,20,1006,20,31,1106,0,36,98,0,0,1002,21,125,20,4,20,1105,1,46,104,999,1105,1,46,1101,1000,1,20,4,20,1105,1,46,98,99';
+  t.is(new Solution(input).processPart2(3)[0], 999);
+  t.is(new Solution(input).processPart2(8)[0], 1000);
+  t.is(new Solution(input).processPart2(9)[0], 1001);
+});
