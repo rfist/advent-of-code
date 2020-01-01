@@ -16,6 +16,7 @@
  | ✔️ 03 | [Crossed Wires][2019.3]                       | [:star:][2019.1.3] |
  | ✔️ 04 | [Secure Container][2019.4]                    | [:star:][2019.1.4] |
  | ✔️ 05 | [Sunny with a Chance of Asteroids][2019.5]    | [:star:][2019.1.5] |
+ | ✔️ 06 | [Universal Orbit Map][2019.6]                 | [:star:][2019.1.6] |
 
 [1]: http://adventofcode.com/2015/day/1
 [1.1]: ./2015/Day%2001%20Not%20quite%20LISP/ts/solution.ts
@@ -41,3 +42,5 @@
 [2019.1.4]: ./2019/Day_04/ts/solution.ts
 [2019.5]: http://adventofcode.com/2019/day/5
 [2019.1.5]: ./2019/Day_05/ts/solution.ts
+[2019.6]: http://adventofcode.com/2019/day/6
+[2019.1.6]: ./2019/Day_06/ts/solution.ts
