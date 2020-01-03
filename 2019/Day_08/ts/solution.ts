@@ -45,6 +45,6 @@ if (require.main === module) {
   const inputRaw: string = fs.readFileSync(`${__dirname}/../input.txt`).toString();
   const solution: Solution = new Solution();
   console.log(`The number of 1 digits multiplied by the number of 2 digits is ${chalk.yellow(solution.processPart1(inputRaw, 25, 6).toString())}`);
-  console.log(`Decoded images is:`);
+  console.log(`The decoded image is:`);
   solution.processPart2(inputRaw, 25, 6);
 }
