@@ -1,6 +1,6 @@
  # 2015
  
- |  Day  | Name                                        |  TypeScript   |    Python     |    GoLang     |      C#       |
+ |  Day  | Name                                        |  TypeScript   |    Python     |    Golang     |      C#       |
  | :---: | ------------------------------------------- | :-----------: | :-----------: | :-----------: | :-----------: |
  | ✔️ 01 | [Not Quite Lisp][1]                         | [:star:][1.1] | [:star:][1.2] | [:star:][1.3] | [:star:][1.4] |
  | ✔️ 02 | [I Was Told There Would Be No Math][2]      | [:star:][2.1] | [:star:][2.2] |               |               |
@@ -19,6 +19,12 @@
  | ✔️ 06 | [Universal Orbit Map][2019.6]                 | [:star:][2019.1.6] |
  | ️   07 | [Amplification Circuit][2019.7]               | |
  | ✔️ 08 | [Space Image Format][2019.8]                  | [:star:][2019.1.8] |
+
+# 2023
+
+|  Day  |         Name          | Golang             |
+ |:---------------------:|--------------------| :----------------: |
+| ✔️ 01 | [Trebuchet?!][2023.1] | [:star:][2023.1.1] |
 
 [1]: http://adventofcode.com/2015/day/1
 [1.1]: ./2015/Day%2001%20Not%20quite%20LISP/ts/solution.ts
@@ -49,3 +55,5 @@
 [2019.1.6]: ./2019/Day_06/ts/solution.ts
 [2019.8]: http://adventofcode.com/2019/day/8
 [2019.1.8]: ./2019/Day_08/ts/solution.ts
+[2023.1]: http://adventofcode.com/2023/day/1
+[2023.1.1]: ./2023/Day_01/go/main.go
