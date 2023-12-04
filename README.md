@@ -23,8 +23,9 @@
 # 2023
 
 |  Day  |         Name          | Golang             |
- |:---------------------:|--------------------| :----------------: |
+|:---------------------:|--------------------| :----------------: |
 | ✔️ 01 | [Trebuchet?!][2023.1] | [:star:][2023.1.1] |
+| ✔️ 02 | [Cube Conundrum][2023.2] | [:star:][2023.2.1] |
 
 [1]: http://adventofcode.com/2015/day/1
 [1.1]: ./2015/Day%2001%20Not%20quite%20LISP/ts/solution.ts
@@ -57,3 +58,5 @@
 [2019.1.8]: ./2019/Day_08/ts/solution.ts
 [2023.1]: http://adventofcode.com/2023/day/1
 [2023.1.1]: ./2023/Day_01/go/main.go
+[2023.2]: http://adventofcode.com/2023/day/2
+[2023.2.1]: ./2023/Day_02/go/main.go
