@@ -85,6 +85,7 @@ func ReplaceFirstAndLastSpelledOutDigits(input string) string {
 	}
 	firstReplacement := allReplacements[0]
 	lastReplacement := allReplacements[len(allReplacements)-1]
+	// for the last occurrence we are not replacing the whole word, but adding the numeric value at the end
 	input = replaceAtIndex(input, lastReplacement.Position, lastReplacement.OldValue, lastReplacement.OldValue+lastReplacement.NewValue)
 	input = strings.Replace(input, firstReplacement.OldValue, firstReplacement.NewValue, 1)
 	return input
