@@ -24,7 +24,7 @@ func main() {
 			return game.Process2(g)
 		})
 		sumPowers := lo.Sum(powers)
-		fmt.Printf("Part 2 result = %d \n", sumPowers) // 53312
+		fmt.Printf("Part 2 result = %d \n", sumPowers) // 55593
 	} else {
 		log.Fatal(err)
 	}
