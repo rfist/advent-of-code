@@ -26,6 +26,7 @@
 |:---------------------:|--------------------| :----------------: |
 | ✔️ 01 | [Trebuchet?!][2023.1] | [:star:][2023.1.1] |
 | ✔️ 02 | [Cube Conundrum][2023.2] | [:star:][2023.2.1] |
+| ✔️ 03 | [Gear Ratios][2023.3] | [:star:][2023.3.1] |
 
 [1]: http://adventofcode.com/2015/day/1
 [1.1]: ./2015/Day%2001%20Not%20quite%20LISP/ts/solution.ts
@@ -60,3 +61,5 @@
 [2023.1.1]: ./2023/Day_01/go/main.go
 [2023.2]: http://adventofcode.com/2023/day/2
 [2023.2.1]: ./2023/Day_02/go/main.go
+[2023.3]: http://adventofcode.com/2023/day/3
+[2023.3.1]: ./2023/Day_03/go/main.go
