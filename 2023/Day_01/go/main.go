@@ -3,12 +3,14 @@ package main
 import (
 	"aoc23/day1/calibrator"
 	"fmt"
-	"github.com/samber/lo"
 	"log"
 	"os"
+
+	"github.com/samber/lo"
 )
 
 func main() {
+	// Part1
 	if content, err := os.ReadFile("input.txt"); err == nil {
 		calibrators := calibrator.NewCalibrators(string(content))
 		sumCalibrators := lo.Sum(calibrators)
