@@ -1,10 +1,7 @@
 package main
 
-import (
-	"testing"
-)
+import "testing"
 
-// TestProcess Day 1
 func TestProcess(t *testing.T) {
 	var result rune
 
@@ -27,5 +24,4 @@ func TestProcess(t *testing.T) {
 	if result2 != 5 {
 		t.Error("Expected 5, got ", result)
 	}
-
 }

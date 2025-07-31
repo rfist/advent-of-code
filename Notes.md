@@ -1,3 +1,4 @@
+[Guide](https://github.com/hyperneutrino/advent-of-code/blob/main/guide.md)
 [Example of git table](https://github.com/hsz/AdventOfCode2015/blob/master/README.md)
 
 [Finish setup](https://github.com/rfist/advent-of-code)

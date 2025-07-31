@@ -1,12 +1,14 @@
+///usr/bin/true; exec /usr/bin/env go run "$0" "$@"
+
 package main
 
 import (
 	"fmt"
-	"io/ioutil"
+	"os"
 )
 
 func main() {
-	input, _ := ioutil.ReadFile("../input.txt")
+	input, _ := os.ReadFile("../input.txt")
 	result := processPart1(string(input))
 	result2 := processPart2(string(input))
 	fmt.Println("Santa takes", result, "floor")
@@ -22,7 +24,6 @@ func processPart1(input string) rune {
 		} else {
 			floor--
 		}
-
 	}
 	return floor
 }
