@@ -1,6 +1,8 @@
 #!/bin/bash
 # - [ ] add logo
 # - [ ] during creation of a new solution, in the root folder $year/$day should be created input.txt and Readme.md
+# - [ ] add typescript template https://github.com/jsynowiec/node-typescript-boilerplate
+# - [ ] add makefile for helper functions
 #  * https://adventofcode.com/2015/events
 
 # Reusable menu selection function
