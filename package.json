@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rfist/advent-of-code.git"
+    "url": "git+https://github.com/wimcraft/advent-of-code.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rfist/advent-of-code/issues"
+    "url": "https://github.com/wimcraft/advent-of-code/issues"
   },
-  "homepage": "https://github.com/rfist/advent-of-code#readme",
+  "homepage": "https://github.com/wimcraft/advent-of-code#readme",
   "dependencies": {
     "@types/node": "^11.9.4",
     "@types/ramda": "^0.25.50",

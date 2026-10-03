@@ -1,11 +1,11 @@
 [Guide](https://github.com/hyperneutrino/advent-of-code/blob/main/guide.md)
 [Example of git table](https://github.com/hsz/AdventOfCode2015/blob/master/README.md)
 
-[Finish setup](https://github.com/rfist/advent-of-code)
+[Finish setup](https://github.com/wimcraft/advent-of-code)
 
 [Bash](https://github.com/bewuethr/advent-of-code)
 
-[My solutions](https://github.com/rfist/adventofcode_solutions/blob/master/src/puzzles/puzzle_2015_1_0.js)
+[My solutions](https://github.com/wimcraft/adventofcode_solutions/blob/master/src/puzzles/puzzle_2015_1_0.js)
 
 [aoc](https://adventofcode.com/2015/day/1)
 
